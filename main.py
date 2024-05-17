@@ -18,9 +18,9 @@ def upload():
     UploadToS3.upload(s3, source_directory, ip_address)
     
     # example to delete
-    directory = ""
-    files, directories = s3.list_files_in_directory(directory)
-    s3.delete_files(files)
+    # directory = ""
+    # files, directories = s3.list_files_in_directory(directory)
+    # s3.delete_files(files)
 
 
 if __name__ == "__main__":
